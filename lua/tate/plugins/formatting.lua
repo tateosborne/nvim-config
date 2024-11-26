@@ -27,7 +27,7 @@ return {
 			formatters = {
 				["clang-format"] = {
 					args = {
-						"--style={ IndentWidth: 4, ColumnLimit: 120, BreakBeforeBraces: Attached, AlignConsecutiveDeclarations: true }",
+						"--style={ IndentWidth: 4, ColumnLimit: 120, BreakBeforeBraces: Attach, AlignConsecutiveDeclarations: true }",
 						"--verbose",
 					},
 				},
