@@ -41,7 +41,6 @@ return {
 			dashboard.button("SPC ee", "  > Toggle file explorer", "<cmd>NvimTreeToggle<CR>"),
 			dashboard.button("SPC ff", "󰱼  > Find file", "<cmd>Telescope find_files<CR>"),
 			dashboard.button("SPC fs", "  > Find word", "<cmd>Telescope live_grep<CR>"),
-			dashboard.button("SPC wr", "󰁯  > Open last session", "<cmd>SessionRestore<CR>"),
 			dashboard.button("l", "󰒲  > Lazy", "<cmd>Lazy<CR>"),
 			dashboard.button("q", "  > Quit NVIM", "<cmd>qa<CR>"),
 		}
