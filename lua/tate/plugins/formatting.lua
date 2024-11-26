@@ -27,20 +27,20 @@ return {
 			formatters = {
 				["clang-format"] = {
 					args = {
-						"--style={ IndentWidth: 4, ColumnLimit: 120, BreakBeforeBraces: Attach, AlignConsecutiveDeclarations: true }",
+						"--style={ IndentWidth: 4, ColumnLimit: 120, BreakBeforeBraces: Attach }",
 						"--verbose",
 					},
 				},
 			},
 
-			format_on_save = {
-				lsp_fallback = true,
-				async = false,
-				timeout_ms = 1000,
-			},
+			-- format_on_save = {
+			-- 	lsp_fallback = true,
+			-- 	async = false,
+			-- 	timeout_ms = 1000,
+			-- },
 		})
 
-		vim.keymap.set({ "n", "v" }, "<leader>op", function()
+		vim.keymap.set({ "n", "v" }, "<leader>z", function()
 			conform.format({
 				lsp_fallback = true,
 				async = false,
