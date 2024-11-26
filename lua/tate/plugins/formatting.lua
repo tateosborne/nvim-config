@@ -23,6 +23,16 @@ return {
 				sql = { "sql-formatter" },
 			},
 
+			-- Custom settings for clang-format
+			formatters = {
+				["clang-format"] = {
+					args = {
+						"--style={ IndentWidth: 4, ColumnLimit: 120, BreakBeforeBraces: Attached, AlignConsecutiveDeclarations: true }",
+						"--verbose",
+					},
+				},
+			},
+
 			format_on_save = {
 				lsp_fallback = true,
 				async = false,
