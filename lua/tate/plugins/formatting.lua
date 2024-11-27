@@ -27,7 +27,7 @@ return {
 			formatters = {
 				["clang-format"] = {
 					args = {
-						"--style={ IndentWidth: 4 }",
+						"--style={ IndentWidth: 4, ColumnLimit: 100 }",
 						"--verbose",
 					},
 				},
