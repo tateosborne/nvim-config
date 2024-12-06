@@ -4,7 +4,7 @@ return {
 	dependencies = { "nvim-lua/plenary.nvim" },
 
 	keys = {
-		{ "<leader>gs", "<cmd>0Git<CR>", desc = "Git status" },
+		{ "<leader>gs", "<cmd>tabnew | 0Git<CR>", desc = "Git status" },
 		{ "<leader>ga", "<cmd>Git add %<CR>", desc = "Stage current file" },
         { "<leader>gA", "<cmd>Git add .<CR>", desc = "Stage all changes" },
 		{ "<leader>gc", "<cmd>Git commit<CR>", desc = "Commit changes" },
