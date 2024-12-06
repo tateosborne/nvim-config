@@ -3,7 +3,7 @@ vim.g.mapleader = " "
 local keymap = vim.keymap
 
 keymap.set("n", "<leader>w", "<cmd>w<CR>", { silent = true, desc = "Save buffer" } )
-keymap.set("n", "<leader>q", "<cmd>q<CR>", { silent = true, desc = "Quit buffer" } )
+keymap.set("n", "<C-q>", "<cmd>q<CR>", { silent = true, desc = "Quit buffer" } )
 
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" } )
 
