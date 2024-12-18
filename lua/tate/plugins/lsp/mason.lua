@@ -24,6 +24,7 @@ return {
 			ensure_installed = {
 				"clangd", -- C / C++
 				"cssls", -- CSS
+                "gopls", -- Go
 				"html", -- HTML
 				"jdtls", -- Java
 				"ts_ls", -- JavaScript / TypeScript
@@ -41,6 +42,7 @@ return {
 			ensure_installed = {
 				-- formatters
 				"clang-format",
+                "gopls",
 				"prettier",
 				"google-java-format",
 				"stylua",
@@ -49,6 +51,7 @@ return {
 				"sql-formatter",
 
 				-- linters
+                "golangci-lint",
 				"stylelint",
 				"htmlhint",
 				"eslint_d",
