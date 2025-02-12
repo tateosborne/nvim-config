@@ -5,7 +5,8 @@ return {
     opts = {
         options = {
             mode = "tabs",
-            separator_style = "slant",
+            tab_size = 20,
+            separator_style = "thick",
         },
     },
 }
