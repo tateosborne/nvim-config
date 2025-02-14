@@ -19,9 +19,9 @@ return {
 
         -- extra keymaps
 		{ "<C-Home>", "<cmd>tabnew | 0Git<CR>", desc = "Git status" },
-		{ "<C-p>", "<cmd>Git commit<CR>", desc = "Commit changes" },
-		{ "<C-l>", "<cmd>Git push<CR>", desc = "Push changes" },
-		{ "<C-PageDown>", "<cmd>Git push<CR>", desc = "Push changes" },
+		{ "<C-\\>", "<cmd>Git commit<CR>", desc = "Commit changes" },
+		{ "<C-p>", "<cmd>Git push<CR>", desc = "Push changes" },
+		{ "<C-l>", "<cmd>Git pull<CR>", desc = "Pull changes from remote" },
 
 	},
 }
