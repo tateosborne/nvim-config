@@ -16,5 +16,12 @@ return {
 		{ "<leader>gx", ":Git branch -d ", desc = "Delete a branch" },
 		{ "<leader>gd", "<cmd>Gdiffsplit<CR>", desc = "Git diff split" },
 		{ "<leader>gb", "<cmd>Git blame<CR>", desc = "Git blame current file" },
+
+        -- extra keymaps
+		{ "<C-Home>", "<cmd>tabnew | 0Git<CR>", desc = "Git status" },
+		{ "<C-\\>", "<cmd>Git commit<CR>", desc = "Commit changes" },
+		{ "<C-PageUp>", "<cmd>Git push<CR>", desc = "Push changes" },
+		{ "<C-PageDown>", "<cmd>Git push<CR>", desc = "Push changes" },
+
 	},
 }

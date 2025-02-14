@@ -11,7 +11,7 @@ return {
 		nvimtree.setup({
 			view = {
 				side = "right",
-				width = 35,
+				width = 30,
 				relativenumber = true,
 			},
 
@@ -38,14 +38,9 @@ return {
 			},
 			filters = {
 				custom = { ".DS_Store" },
-			},
-			git = {
-				ignore = false,
-			},
+			}
 		})
-
 		local keymap = vim.keymap
-
 		keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle file explorer" })
 	end,
 }
