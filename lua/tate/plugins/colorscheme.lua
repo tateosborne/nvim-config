@@ -1,10 +1,10 @@
 return {
 	-- "rebelot/kanagawa.nvim",
-	"sainnhe/gruvbox-material",
+	-- "sainnhe/gruvbox-material",
 	--"navarasu/onedark.nvim",
 	--"neanias/everforest-nvim",
 	-- "pineapplegiant/spaceduck",
-	-- "shaunsingh/nord.nvim",
+	"shaunsingh/nord.nvim",
     -- "vague2k/vague.nvim",
 
 	-- "zenbones-theme/zenbones.nvim",
@@ -13,6 +13,6 @@ return {
 	priority = 1000,
 	config = function()
 		vim.cmd("set background=dark")
-		vim.cmd("colorscheme gruvbox-material")
+		vim.cmd("colorscheme nord")
 	end,
 }
