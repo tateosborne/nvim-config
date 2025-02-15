@@ -8,8 +8,8 @@ return {
 		{ "<leader>ga", "<cmd>Git add %<CR>", desc = "Stage current file" },
         { "<leader>gA", "<cmd>Git add .<CR>", desc = "Stage all changes" },
 		{ "<leader>gc", "<cmd>Git commit<CR>", desc = "Commit changes" },
-		{ "<leader>gp", "<cmd>Git push<CR>", desc = "Push changes" },
-		{ "<leader>gP", "<cmd>Git pull<CR>", desc = "Pull changes from remote" },
+		{ "<leader>gP", "<cmd>Git -c push.default=current push<CR>", desc = "Push changes" },
+		{ "<leader>gp", "<cmd>Git pull<CR>", desc = "Pull changes from remote" },
 		{ "<leader>gl", "<cmd>Git branch<CR>", desc = "List all branches" },
 		{ "<leader>gn", ":Git checkout -b ", desc = "Create and switch to a new branch" },
 		{ "<leader>go", ":Git checkout ", desc = "Switch to an existing branch" },
@@ -20,8 +20,6 @@ return {
         -- extra keymaps
 		{ "<C-Home>", "<cmd>tabnew | 0Git<CR>", desc = "Git status" },
 		{ "<C-S-Home>", "<cmd>Git commit<CR>", desc = "Commit changes" },
-		{ "<C-p>", "<cmd>Git push<CR>", desc = "Push changes" },
-		{ "<C-l>", "<cmd>Git pull<CR>", desc = "Pull changes from remote" },
-
+        { "<C-p>", "<cmd>Git -c push.default=current push<CR>", desc = "Push to current branch" }
 	},
 }
