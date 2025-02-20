@@ -111,7 +111,8 @@ return {
 		lualine.setup({
 			options = {
 				--theme = everforest,
-                theme = spaceduck,
+                -- theme = spaceduck,
+                theme = "auto",
 			},
 			sections = {
 				lualine_x = {

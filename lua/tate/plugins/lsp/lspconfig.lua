@@ -26,7 +26,7 @@ return {
 				"jsonls", -- JSON
 				"lua_ls", -- Lua
 				"marksman", -- Markdown
-				"pyright", -- Python
+				"jedi_language_server", -- Python
 				"rust_analyzer", -- Rust
 				"sqlls", -- SQL
 			},
