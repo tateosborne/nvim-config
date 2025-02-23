@@ -37,10 +37,12 @@ return {
 				},
 			},
 			filters = {
-				custom = { ".DS_Store" },
-			}
+				custom = { ".DS_Store", ".git" },
+			},
 		})
 		local keymap = vim.keymap
 		keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle file explorer" })
+		keymap.set("n", "<C-CR>", "<C-CR>", { desc = "Open file in new tab" })
+
 	end,
 }
