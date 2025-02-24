@@ -37,7 +37,9 @@ return {
 				},
 			},
 			filters = {
-				custom = { ".DS_Store", ".git" },
+				custom = { ".DS_Store", "__pylance__", ".git/*" },
+                exclude = { ".gitignore" },
+                git_ignored = false,
 			},
 		})
 		local keymap = vim.keymap
